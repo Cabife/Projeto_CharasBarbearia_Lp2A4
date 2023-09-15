@@ -191,6 +191,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.PanelMenu);
             this.Name = "SDASHBOARD";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DASHBOARD";
             this.PanelMenu.ResumeLayout(false);
             this.PanelLOGO.ResumeLayout(false);

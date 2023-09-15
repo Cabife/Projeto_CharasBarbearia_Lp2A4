@@ -31,12 +31,24 @@ namespace Projeto_CharasBarbearia
 
         private void BTSIGN_IN_Click(object sender, EventArgs e)
         {
-            //Instacia tela de menu
-            SMENU sMENU = new SMENU();
 
-            this.Hide();
+            string Username = TXBLOGIN.Text;
+            string Password = TXBPASSWORD.Text;
 
-            sMENU.Show();
+            if (Username == "Cabife" && Password == "c3cabifozo")
+            {
+
+                //Instacia tela de menu
+                SMENU sMENU = new SMENU();
+
+                this.Hide();
+
+                sMENU.Show();
+            }
+            else
+            {
+                MessageBox.Show("LOGIN FAILED", "ERROR",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
         }
     }
 }

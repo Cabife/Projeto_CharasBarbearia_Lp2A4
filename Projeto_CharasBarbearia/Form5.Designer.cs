@@ -192,6 +192,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.PanelMenu);
             this.Name = "SCUSTOMERS";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
             this.PanelMenu.ResumeLayout(false);
             this.PanelLOGO.ResumeLayout(false);

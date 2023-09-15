@@ -206,6 +206,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.PanelMenu);
             this.Name = "SMENU";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MENU";
             this.PanelMenu.ResumeLayout(false);
             this.PanelLOGO.ResumeLayout(false);

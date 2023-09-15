@@ -102,6 +102,7 @@
             this.TXBPASSWORD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TXBPASSWORD.Location = new System.Drawing.Point(18, 131);
             this.TXBPASSWORD.Name = "TXBPASSWORD";
+            this.TXBPASSWORD.PasswordChar = '•';
             this.TXBPASSWORD.Size = new System.Drawing.Size(251, 20);
             this.TXBPASSWORD.TabIndex = 1;
             this.TXBPASSWORD.TextChanged += new System.EventHandler(this.TXBPASSWORD_TextChanged);
@@ -139,6 +140,7 @@
             this.Controls.Add(this.IMAGELOGO_LOGIN);
             this.Controls.Add(this.PANEL_Login);
             this.Name = "SLOGIN";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " LOGIN";
             this.PANEL_Login.ResumeLayout(false);
             this.PANEL_Login.PerformLayout();
